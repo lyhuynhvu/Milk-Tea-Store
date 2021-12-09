@@ -27,11 +27,9 @@ a:hover {
 
 .page {
 	width: 100%;
-	background: url(images/background.png);
-    background-position: center;
-    background-repeat: space;
 }
 
+/* Header Page */
 .header {
 	background-color: hotpink;
 	display: flex;
@@ -39,10 +37,12 @@ a:hover {
     align-items: center;
     justify-content: space-evenly;
 }
+
 .header img {
 	width: 200px;
 	height: 60px;
 }
+
 .header-menu {
 	width: 50%;
     display: flex;
@@ -51,10 +51,7 @@ a:hover {
     justify-content: space-evenly;
 }
 
-.center {
-	padding: 10px 0;
-}
-
+/* Footer Page */
 .footer {
 	padding: 15px 0;
 	background-color: hotpink;
@@ -64,6 +61,7 @@ a:hover {
     align-items: center;
     justify-content: space-around;
 }
+
 .footer-menu {
 	width: 40%;
 	display: flex;
@@ -71,6 +69,7 @@ a:hover {
     align-items: center;
     justify-content: space-between;
 }
+
 .footer-infor {
     margin-bottom: 10px;
 }
