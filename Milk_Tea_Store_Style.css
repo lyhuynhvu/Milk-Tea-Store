@@ -3,19 +3,16 @@ body {
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
-	color: black;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0;
-	padding-right: 15px;
-	padding-left: 15px;
+p {
+  text-align: justify;
 }
 
 a img {
 	border: none;
 }
-a:link {
+a{
     color: white;
 }
 a:hover {
@@ -31,7 +28,7 @@ a:hover {
 
 /* Header Page */
 .header {
-	background-color: hotpink;
+	background-color: lightpink;
 	display: flex;
     flex-direction: row;
     align-items: center;
@@ -54,7 +51,7 @@ a:hover {
 /* Footer Page */
 .footer {
 	padding: 15px 0;
-	background-color: hotpink;
+	background-color: lightpink;
     color: white;
     display: flex;
     flex-direction: row;
