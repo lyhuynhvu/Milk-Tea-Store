@@ -1,5 +1,29 @@
 /* menu stype */
 
+ul {
+  list-style-type: none;
+  width: 82%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 20px auto;
+  padding: 0;
+}
+
+.menu-bar-wrapper ul li:hover {
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.keeping {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  top: 0;
+  background-color: #fccfd4;
+}
+
 .menu-type h4 {
   height: 50px;
   text-align: center;

@@ -54,4 +54,5 @@
     </div>
   </body>
   <script type="text/javascript" src="../Milk_Tea_Store_Function.js"></script>
+  <script type="text/javascript" src="../menu_function.js"></script>
 </html>
