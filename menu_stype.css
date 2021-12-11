@@ -1,0 +1,81 @@
+/* menu stype */
+
+.menu-type h4 {
+  height: 50px;
+  text-align: center;
+  color: white;
+  background-color: #c6c6c6;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.menu-type {
+  margin-top: 0;
+  margin-bottom: 50px;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.menu-drink,
+.menu-topping {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-drink .item,
+.menu-topping .topping {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  margin: 20px 0;
+  width: 34%;
+}
+
+.menu-drink .item img {
+  width: 300px;
+  height: 300px;
+}
+
+.menu-drink .item span,
+.menu-topping .topping span {
+  text-align: center;
+  color: crimson;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.topping img {
+  width: 280px;
+  height: 160px;
+}
+
+.view-detail-item {
+  width: 300px;
+  height: 45.5%;
+  opacity: 0;
+  position: absolute;
+  display: block;
+}
+
+.view-detail-topping {
+  width: 280px;
+  height: 27%;
+  opacity: 0;
+  position: absolute;
+  display: block;
+}
+
+.view-detail-item:hover,
+.view-detail-topping:hover {
+  opacity: 1;
+  border: 1px solid #dc3545;
+  border-radius: 5px;
+}
+
+.view-detail-item button,
+.view-detail-topping button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
