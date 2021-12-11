@@ -31,7 +31,18 @@
       <!-- main --><!-- InstanceBeginEditable name="main" -->
       <div class="main">
       	<div class="menu">
-          <div class="menu-type">
+          <div class="menu-bar-wrapper" id="menu-bar-wrapper">
+            <ul>
+              <li onclick="scrollToBlock('milktea')"><img src="images/background/glass-icon.png">TRÀ SỮA</li>
+              <li onclick="scrollToBlock('tea')"><img src="images/background/glass-icon.png">TRÀ NGUYÊN CHẤT - KEM SỮA</li>
+              <li onclick="scrollToBlock('latte')"><img src="images/background/glass-icon.png">LATTE</li>
+              <li onclick="scrollToBlock('smoothies')"><img src="images/background/glass-icon.png">ĐÁ XAY</li>
+              <li onclick="scrollToBlock('special')"><img src="images/background/glass-icon.png">THỨC UỐNG ĐẶC BIỆT</li>
+              <li onclick="scrollToBlock('topping')"><img src="images/background/glass-icon.png">TOPPING</li>
+            </ul>
+          </div>
+
+          <div class="menu-type" id="milktea">
             <h4>TRÀ SỮA</h4>
             <div class="menu-drink">
               <div class="item">
@@ -127,7 +138,7 @@
             </div>
           </div>
 
-          <div class="menu-type">
+          <div class="menu-type" id="tea">
             <h4>TRÀ NGUYÊN CHẤT - KEM SỮA</h4>
             <div class="menu-drink">
               <div class="item">
@@ -177,7 +188,7 @@
             </div>
           </div>
         
-          <div class="menu-type">
+          <div class="menu-type" id="latte">
             <h4>LATTE</h4>
             <div class="menu-drink">
               <div class="item">
@@ -197,7 +208,7 @@
             </div>
           </div>
 
-          <div class="menu-type">
+          <div class="menu-type" id="smoothies">
             <h4>ĐÁ XAY</h4>
             <div class="menu-drink">
               <div class="item">
@@ -247,7 +258,7 @@
             </div>
           </div>
 
-          <div class="menu-type">
+          <div class="menu-type" id="special">
             <h4>THỨC UỐNG ĐẶC BIỆT</h4>
             <div class="menu-drink">
               <div class="item">
@@ -274,7 +285,7 @@
             </div>
           </div>
 
-          <div class="menu-type">
+          <div class="menu-type" id="topping">
             <h4>TOPPING</h4>
             <div class="menu-topping">
               <div class="topping">
@@ -381,4 +392,5 @@
     </div>
   </body>
   <script type="text/javascript" src="Milk_Tea_Store_Function.js"></script>
+  <script type="text/javascript" src="menu_function.js"></script>
 <!-- InstanceEnd --></html>
