@@ -1,0 +1,42 @@
+/* Contacts Style */
+
+.contacts {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.contact-form-title {
+  padding: 20px 10px;
+}
+
+.contact-form-row {
+  padding: 10px 30px;
+}
+
+.contact-form-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact-form-content .form-group-left,
+.contact-form-content .form-group-right {
+  width: 40%;
+}
+
+.form-check-wrapper {
+  width: 40%;
+}
+
+.form-btn-group {
+  text-align: center;
+}
+
+.contact-form-content .required-character {
+  color: #dc3545;
+}
+
+.was-validated {
+  border-color: #dc3545;
+}
