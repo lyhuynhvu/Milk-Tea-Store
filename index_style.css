@@ -61,3 +61,44 @@
 .slide-wrapper div:nth-child(3) img{
   transform: translateX(200%);
 }
+
+/* positive product */
+
+.positive-product {
+  margin: 20px auto;
+  width: 90%;
+  background-color: #fccfd4;
+  border-radius: 20px;
+}
+
+.positive-product-title {
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.positive-product .menu-drink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.positive-product .menu-drink .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  width: 22%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.positive-product .menu-drink .item .special-product-name {
+  padding-bottom: 20px;
+}
+
+.positive-product .menu-drink .item .detail-special-product {
+  height: 47.45%;
+}
