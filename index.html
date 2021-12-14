@@ -46,6 +46,98 @@
                 	</div>
                 </div>
             </div>
+            <!-- positive product -->
+            <div class="positive-product">
+              <p class="positive-product-title">Sản Phẩm Nổi Bật</p>
+              <div class="menu-drink">
+                <div class="item">
+                  <img src="images/special/dao-hong-man-hot-e.png">
+                  <span class="special-product-name">Đào Hồng Mận Hột É</span>
+                  <div class="view-detail-item detail-special-product">
+                    <button type="button" class="btn btn-danger" 
+                      onclick="viewDetailSpecial('Đào Hồng Mận Hột É', 'images/special/dao-hong-man-hot-e.png')" 
+                      data-toggle="modal" data-target="#modalDetail">Chi tiết</button>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/smoothies/Strawberry-Oreo-Smoothie.png">
+                  <span class="special-product-name">Oreo Dâu Đá Xay</span>
+                  <div class="view-detail-item detail-special-product">
+                    <button type="button" class="btn btn-danger" 
+                      onclick="viewDetailSmoothies('Oreo Dâu Đá Xay', 'images/smoothies/Strawberry-Oreo-Smoothie.png')" 
+                      data-toggle="modal" data-target="#modalDetail">Chi tiết</button>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/tea/tra-xanh-Bear-MT.png">
+                  <span class="special-product-name">Trà Xanh Bear MT</span>
+                  <div class="view-detail-item detail-special-product">
+                    <button type="button" class="btn btn-danger" 
+                      onclick="viewDetailTea('Trà Xanh Bear MT', 'images/tea/tra-xanh-Bear-MT.png')" 
+                      data-toggle="modal" data-target="#modalDetail">Chi tiết</button>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/latte/Strawberry-Earl-grey-latte.png">
+                  <span class="special-product-name">Latte Dâu</span>
+                  <div class="view-detail-item detail-special-product">
+                    <button type="button" class="btn btn-danger" 
+                      onclick="viewDetailLatte('Latte Dâu', 'images/latte/Strawberry-Earl-grey-latte.png')" 
+                      data-toggle="modal" data-target="#modalDetail">Chi tiết</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div id="modalDetail" class="modal fade" tabindex="-1" role="dialog">
+              <div class="modal-dialog modal-dialog-centered modal-product-wrapper" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Chi Tiết Sản Phẩm</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="modal-product-content">
+                      <div class="product-img-wrapper"><img src="images/milktea/tra-sua-chocolate.png" id="product-img-detail"></div>
+                      <div class="product-detail-wrapper">
+                        <h4 class="product-name" id="product-name"></h4>
+                        <div class="product-detail">
+                          <h5 class="info-label">Thông tin</h5>
+                          <div class="product-detail-info">
+                            <table class="table table-hover">
+                              <thead>
+                                <tr class="table-danger">
+                                  <th scope="col">Size</th>
+                                  <th scope="col">Giá</th>
+                                  <th scope="col">Lượng đá</th>
+                                  <th scope="col">Lượng đường</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">M</th>
+                                  <td id="price-size-m"></td>
+                                  <td>30%</td>
+                                  <td>50%</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">L</th>
+                                  <td id="price-size-l"></td>
+                                  <td>50%</td>
+                                  <td>70%</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       <!-- InstanceEndEditable -->
       
